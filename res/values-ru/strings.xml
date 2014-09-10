@@ -1,0 +1,42 @@
+
+<!-- 
+/*
+ *
+ *   Copyright 2014, FANGYTASK
+ *   http://fangytask.com
+ *
+ */ 
+ -->
+ 
+ <resources>
+     
+    
+    <!-- Description in list of live wallpapeprs -->
+    <string name="lwp_description">Живые обои с эффектом состаривания</string>
+   
+    <!-- Name in settings activity on top in bar-->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_group_1">Общие</string>
+    <string name="settings_group_2">Скачать Живые обои</string>
+    <string name="settings_group_3">О нас</string>
+    
+    <!--Title checkbox   -->
+    <string name="aging_title">Состаривание</string>
+    <string name="aging_summary">Винтажный эффект в реальном времени</string>
+    
+    <string name="cover_title">Тип покрытия</string>
+    <string name="cover_summary">Скорость состаривания</string>
+    
+     <string name="link_summary_1">Живые обои</string>
+     <string name="link_summary_2">Живые обои</string>
+     <string name="link_summary_3">Живые обои</string>
+     <string name="site_title">Посетите наш сайт!</string>
+     
+     <string name="share_title">Поделись</string>
+     <string name="share_summary">Расскажи друзьям</string>
+     
+     <string name="rate_title">Оцени</string>
+    <string name="rate_summary">Понравилось приложение?</string>
+    
+    
+</resources>

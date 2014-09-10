@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+ *   FRANKENSTEIN
+ *   Copyright 2014, FANGYTASK
+ *   http://fangytask.com
+ *
+ */ 
+ -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        	android:title="@string/settings_title"
+        	android:key="appsettings">
+        	
+ <!--general preferences: aging and cover  -->
+ <PreferenceCategory android:title="@string/settings_group_1">   
+      <CheckBoxPreference 
+            android:icon="@drawable/ic_aging"
+        	android:title="@string/aging_title"
+        	android:key="agingsettings"
+        	android:summary="@string/aging_summary"
+        	
+            android:defaultValue="true"                     />
+      <ListPreference
+            android:icon="@drawable/ic_cover"
+            android:key="coversettings"
+            android:title="@string/cover_title"
+            android:summary="@string/cover_summary"
+            android:entries="@array/cover_names"
+            android:entryValues="@array/cover_values"
+            android:dependency="agingsettings" 
+            android:defaultValue="nitro"/>
+      
+          <Preference
+            android:icon="@drawable/ic_rate"
+            android:title="@string/rate_title" 
+            android:summary="@string/rate_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/rate_link"
+            />
+       </Preference>
+       
+      <Preference
+            android:icon="@drawable/ic_share"
+            android:title="@string/share_title" 
+            android:summary="@string/share_summary">
+            <intent
+                android:action="android.intent.action.SEND"
+                android:category="android.intent.category.DEFAULT"
+                android:mimeType="text/plain">
+                <extra	android:name="android.intent.extra.TEXT"
+                    	android:value="@string/share_link" />
+            
+            </intent>
+       </Preference>
+       
+ </PreferenceCategory> 
+ 
+   <!--links to google play: to 3 lwps  -->
+   <PreferenceCategory android:title="@string/settings_group_2">
+      
+       <Preference
+            android:icon="@drawable/ic_dracula"
+            android:title="@string/link_title_1" 
+            android:summary="@string/link_summary_1">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/google_play_link_1"
+            />
+       </Preference>
+    
+       <Preference
+            android:icon="@drawable/ic_mummy"
+            android:title="@string/link_title_2" 
+            android:summary="@string/link_summary_2">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/google_play_link_2"
+            />
+       </Preference>
+  
+       <Preference
+            android:icon="@drawable/ic_bride"
+            android:title="@string/link_title_3" 
+            android:summary="@string/link_summary_3">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/google_play_link_3"
+            />
+       </Preference>
+    </PreferenceCategory>
+    
+     <!--About  -->
+   <PreferenceCategory android:title="@string/settings_group_3">
+      
+       <Preference
+            android:icon="@drawable/ic_fangytask"
+            android:title="@string/site_title" 
+            android:summary="@string/site_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/site_link"
+            />
+             </Preference>
+       </PreferenceCategory>
+    
+</PreferenceScreen>
