@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+ *
+ *   Copyright 2014, FANGYTASK
+ *   http://fangytask.com
+ *
+ */ 
+ -->
+<resources>
+    
+ <!-- Selecting cover names -->
+    <string-array name="cover_names">        
+        <item>"Nitro"</item>
+        <item>"Poly"</item>
+    </string-array>
+ 
+<!-- Selecting cover values -->
+    <string-array name="cover_values">
+        <item>nitro</item>
+        <item>poly</item>       
+    </string-array>
+
+</resources>

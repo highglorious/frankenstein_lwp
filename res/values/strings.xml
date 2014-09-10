@@ -1,0 +1,63 @@
+
+<!-- 
+/*
+ *
+ *   Copyright 2014, FANGYTASK
+ *   http://fangytask.com
+ *
+ *   FRANKENSTEIN
+ *	 Google Play
+ */ 
+ -->
+ 
+ <resources>
+     
+     <!-- Default language -->
+     
+    <!-- Name in list of installed apps -->
+    <string name="app_name">Frankenstein</string>
+    
+    <!-- Name in list of live wallpapeprs -->
+    <string name="lwp_name">Frankenstein</string>
+    
+    <!-- Description in list of live wallpapeprs -->
+    <string name="lwp_description">Livewallpaper with realtime vintage aging</string>
+    
+    <!-- Name in settings activity on top in bar-->
+    <string name="settings_title">Settings</string>
+    <string name="settings_group_1">General</string>
+    <string name="settings_group_2">More livewallpapers</string>
+    <string name="settings_group_3">About</string>
+    
+    <string name="link_title_1">Dracula</string>
+    <string name="link_summary_1">Live Wallpaper</string>
+    <string name="google_play_link_1">market://details?id=com.fangytask.livewallpaper.dracula</string>
+   
+    <string name="link_title_2">Mummy</string>
+    <string name="link_summary_2">Live Wallpaper</string>
+    <string name="google_play_link_2">market://details?id=com.fangytask.livewallpaper.mummyk</string>
+    
+    <string name="link_title_3">Bride of Frankenstein</string>
+    <string name="link_summary_3">Live Wallpaper</string>
+    <string name="google_play_link_3">market://details?id=com.fangytask.livewallpaper.bride</string>
+    
+    <string name="site_title">Visit our site</string>
+    <string name="site_summary"> fangytask.com</string>
+    <string name="site_link">http://fangytask.com</string>
+    
+    <string name="share_title">Share</string>
+    <string name="share_summary">Tell your friends</string>
+    <string name="share_link">Wallpaper comes to life! at http://play.google.com/store/apps/details?id=com.fangytask.livewallpaper.frank</string>
+    
+    <string name="rate_title">Rate</string>
+    <string name="rate_summary">Like this wallpaper?</string>
+    <string name="rate_link">market://details?id=com.fangytask.livewallpaper.frank</string>
+    
+    <string name="aging_title">Vintage aging</string>
+    <string name="aging_summary">Advanced wearing down</string>
+
+    
+    <string name="cover_title">Cover type</string>
+    <string name="cover_summary">Speed of wearing down</string>
+    
+</resources>
