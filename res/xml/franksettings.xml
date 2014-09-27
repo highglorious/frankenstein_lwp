@@ -61,7 +61,7 @@
    <PreferenceCategory android:title="@string/settings_group_2">
       
        <Preference
-            android:icon="@drawable/ic_halloween"
+            android:icon="@drawable/ic_bundle"
             android:title="@string/link_title_1" 
             android:summary="@string/link_summary_1">
             <intent
